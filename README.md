@@ -13,4 +13,7 @@ cd base
 
 ```
 npm test
+npm run lint:typings
 ```
+
+*(Oh yeah, there's ts typings for the poor individuals who actually like typescript)*
