@@ -1,0 +1,34 @@
+{
+  "name": "base",
+  "version": "0.0.1",
+  "description": "My base javascript project template.",
+  "main": "./src/index",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src *.js",
+    "lint:fix": "eslint --fix src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cringiest/base.git"
+  },
+  "keywords": [],
+  "author": "Aiden Bai <mail.contraband@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cringiest/base/issues"
+  },
+  "homepage": "https://github.com/cringiest/base",
+  "dependencies": {
+    "grumpy": "0.0.5"
+  },
+  "peerDependencies": {
+
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
